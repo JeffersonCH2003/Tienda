@@ -17,12 +17,13 @@
                 </tr>
             </thead>
             <tbody>
-                <tr th:each="categoria:${categoria}">
+                <tr th:each="categoria : ${categorias}">
                     <td>[[${categoria.idCategoria}]]</td>
                     <td>[[${categoria.descripcion}]]</td>
                 </tr>
             </tbody>
         </table>
+
 
         
         <footer th:replace="~{layout/plantilla :: footer}"/>
