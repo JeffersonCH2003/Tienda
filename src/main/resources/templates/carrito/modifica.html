@@ -7,15 +7,11 @@
         <meta charset="UTF-8"/>
     </head>
     <body>
-
         <header th:replace="~{layout/plantilla :: header}"/>
         
-        <header th:replace="~{carrito/fragmentos :: listadoProductos}"/>
+        <section th:replace="~{carrito/fragmentos :: modificaItem}"/>
         
-        <footer th:replace="~{layout/plantilla :: footer}"></footer><!-- cositas del footer -->
-
-
+        <footer th:replace="~{layout/plantilla :: footer}"></footer> <!-- footer modificado-->
 
     </body>
 </html>
-
